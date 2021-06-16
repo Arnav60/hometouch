@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real estate</title>
+    <!-- Font roboto -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <!-- Semantic UI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Style css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="hero-section">
+        <div class="overlay"></div>
+        <nav id ="navbar" class>
+            <div class="brand">
+                <svg id="brand-logo" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-smart-home" width="44" height="44" viewBox="0 0 24 24" stroke-width="2.5" stroke="#4B85F0" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M19 8.71l-5.333 -4.148a2.666 2.666 0 0 0 -3.274 0l-5.334 4.148a2.665 2.665 0 0 0 -1.029 2.105v7.2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-7.2c0 -.823 -.38 -1.6 -1.03 -2.105" />
+                    <path d="M16 15c-2.21 1.333 -5.792 1.333 -8 0" />
+                  </svg>
+                <h2 class="tf-rob t-white">hometouch</h2>
+            </div>
+            <div class="nav-links">
+                <a href="" class="tf-rob t-white active-n1"> Home</a>
+                <a href="" class="tf-rob t-white">About</a>
+                <a href="" class="tf-rob t-white">Listings</a>
+            </div>
+            <div class="right-nav">
+                <a href="" class="tf-rob t-white to-btn t-btn"><i class="user plus icon"></i>Register</a>
+                <a href="" class="tf-rob t-white tf-btn t-btn"><i class="sign in alternate icon"></i>Log in</a>
+            </div>
+        </nav>
+        <div class="main-head search-form-con">
+            <h1 class="tf-rob t-white">Property searching just got so easy</h1>
+            <p class="tf-rob t-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolores deserunt libero laborum suscipit? Vero!</p>
+            <form class="ui form">
+                <div class="fields">
+                    <div class="fourteen wide field">
+                        <input class=" text-field tf-rob" type="text" name="keyword" placeholder="Keyword(pool, garage etc)">
+                    </div>
+                    <div class="eight wide field">
+                        <input class="text-field tf-rob" type="text" name="city" placeholder="City">
+                    </div>
+                    <div class="ten wide field">
+                        <select class="ui fluid dropdown">
+                          <option value="">State</option>
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                        <option value="AR">Arkansas</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="fields">
+                    <div class="ten wide field">
+                        <select class="ui fluid dropdown">
+                          <option value="">Bedrooms(ALL)</option>
+                          <option value="1">1</option>
+                         <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="ten wide field">
+                        <select class="ui fluid dropdown">
+                          <option value="">Max price (Any)</option>
+                        <option value="100">100$</option>
+                        <option value="200">200$</option>
+                        <option value="300">300$</option>
+                        <option value="400">400$</option>
+                        </select>
+                    </div>
+                </div>
+                <button class="t-btn tf-btn t-white tf-rob form-btn" type="submit"><i class="search icon"></i>Search</button>
+                
+              </form>
+        </div>
+    </div>
+    <div class="latest-listings main-head">
+        <h1 class="tf-rob t-color">Latest Listings</h1>
+        <p class="tf-rob t-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolores deserunt libero laborum suscipit? Vero!</p>
+        <div class="listing-grid">
+            <div class="ui card listing-card tf-rob">
+                <div class="image">
+                  <img src="assets/src/1.jpg">
+                </div>
+                <div class="content main-li-content">
+                  <a class="header tf-rob">45 Drivewood Circle</a>
+                  <div class="meta listing-loc">
+                    <span class="date"><i class="map marker alternate icon"></i>Norwood,MA 02062</span>
+                  </div>
+                  <div class="ui divider"></div>
+                  <div class="description">
+                    <div class="content listing-content ">
+                       <span>
+                           <i class="table icon"></i>
+                            Sqft : 2500
+                       </span> 
+                       <span>
+                           <i class="car icon"></i>
+                            Garage : 2
+                       </span>
+                    </div>  
+                    <div class="content listing-content">
+                        <span>
+                            <i class="bed icon"></i>
+                            Bedrooms: 4
+                        </span> 
+                        <span>
+                            <i class="bath icon"></i>
+                            Bathroom : 3
+                        </span>
+                    </div>
+                    <div class="ui divider"></div>
+                    <div class="content listing-content">
+                        <span>
+                            <i class="user icon"></i>
+                            Kyle Brown
+                        </span> 
+                        <span>
+                            <i class="clock icon"></i>
+                            5 days ago 
+                        </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="ui card listing-card tf-rob">
+                <div class="image">
+                  <img src="assets/src/2.jpg">
+                </div>
+                <div class="content main-li-content">
+                  <a class="header tf-rob">45 Drivewood Circle</a>
+                  <div class="meta listing-loc">
+                    <span class="date"><i class="map marker alternate icon"></i>Norwood,MA 02062</span>
+                  </div>
+                  <div class="ui divider"></div>
+                  <div class="description">
+                    <div class="content listing-content ">
+                       <span>
+                           <i class="table icon"></i>
+                            Sqft : 2500
+                       </span> 
+                       <span>
+                           <i class="car icon"></i>
+                            Garage : 2
+                       </span>
+                    </div>  
+                    <div class="content listing-content">
+                        <span>
+                            <i class="bed icon"></i>
+                            Bedrooms: 4
+                        </span> 
+                        <span>
+                            <i class="bath icon"></i>
+                            Bathroom : 3
+                        </span>
+                    </div>
+                    <div class="ui divider"></div>
+                    <div class="content listing-content">
+                        <span>
+                            <i class="user icon"></i>
+                            Kyle Brown
+                        </span> 
+                        <span>
+                            <i class="clock icon"></i>
+                            5 days ago 
+                        </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="ui card listing-card tf-rob">
+                <div class="image">
+                  <img src="assets/src/3.jpg">
+                </div>
+                <div class="content main-li-content">
+                  <a class="header tf-rob">45 Drivewood Circle</a>
+                  <div class="meta listing-loc">
+                    <span class="date"><i class="map marker alternate icon"></i>Norwood,MA 02062</span>
+                  </div>
+                  <div class="ui divider"></div>
+                  <div class="description">
+                    <div class="content listing-content ">
+                       <span>
+                           <i class="table icon"></i>
+                            Sqft : 2500
+                       </span> 
+                       <span>
+                           <i class="car icon"></i>
+                            Garage : 2
+                       </span>
+                    </div>  
+                    <div class="content listing-content">
+                        <span>
+                            <i class="bed icon"></i>
+                            Bedrooms: 4
+                        </span> 
+                        <span>
+                            <i class="bath icon"></i>
+                            Bathroom : 3
+                        </span>
+                    </div>
+                    <div class="ui divider"></div>
+                    <div class="content listing-content">
+                        <span>
+                            <i class="user icon"></i>
+                            Kyle Brown
+                        </span> 
+                        <span>
+                            <i class="clock icon"></i>
+                            5 days ago 
+                        </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="ui card listing-card tf-rob">
+                <div class="image">
+                  <img src="assets/src/4.jpg">
+                </div>
+                <div class="content main-li-content">
+                  <a class="header tf-rob">45 Drivewood Circle</a>
+                  <div class="meta listing-loc">
+                    <span class="date"><i class="map marker alternate icon"></i>Norwood,MA 02062</span>
+                  </div>
+                  <div class="ui divider"></div>
+                  <div class="description">
+                    <div class="content listing-content ">
+                       <span>
+                           <i class="table icon"></i>
+                            Sqft : 2500
+                       </span> 
+                       <span>
+                           <i class="car icon"></i>
+                            Garage : 2
+                       </span>
+                    </div>  
+                    <div class="content listing-content">
+                        <span>
+                            <i class="bed icon"></i>
+                            Bedrooms: 4
+                        </span> 
+                        <span>
+                            <i class="bath icon"></i>
+                            Bathroom : 3
+                        </span>
+                    </div>
+                    <div class="ui divider"></div>
+                    <div class="content listing-content">
+                        <span>
+                            <i class="user icon"></i>
+                            Kyle Brown
+                        </span> 
+                        <span>
+                            <i class="clock icon"></i>
+                            5 days ago 
+                        </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="services-grid tbg-color">
+      <div class="services-block t-white tf-rob">
+            <!-- <span class="i-size"><i class="comment alternate outline icon"></i></span> -->
+            <svg class="svg-size" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17,7H7A1,1,0,0,0,7,9H17a1,1,0,0,0,0-2Zm0,4H7a1,1,0,0,0,0,2H17a1,1,0,0,0,0-2Zm2-9H5A3,3,0,0,0,2,5V15a3,3,0,0,0,3,3H16.59l3.7,3.71A1,1,0,0,0,21,22a.84.84,0,0,0,.38-.08A1,1,0,0,0,22,21V5A3,3,0,0,0,19,2Zm1,16.59-2.29-2.3A1,1,0,0,0,17,16H5a1,1,0,0,1-1-1V5A1,1,0,0,1,5,4H19a1,1,0,0,1,1,1Z"/></svg>
+            <div class="ui divider"></div>
+            <h3>Consulting Services</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate consequatur sint eius necessitatibus sequi temporibus officiis quod quas repudiandae.</p>
+      </div>
+      <div class="services-block t-white tf-rob">
+          <!-- <span class="i-size"><i class="comment alternate outline icon"></i></span> -->
+          <svg class="svg-size" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><title>House</title><path id="House" d="M24.82,10,21,6.84V1.5a.49.49,0,0,0-.5-.5h-3a.49.49,0,0,0-.5.5V3.56L12.82.12a.51.51,0,0,0-.64,0L.18,10a.5.5,0,0,0-.08.69l1.48,1.91a.5.5,0,0,0,.34.2.54.54,0,0,0,.37-.11L12.5,4.3l10.21,8.37a.51.51,0,0,0,.32.11h0a.5.5,0,0,0,.34-.2l1.48-1.91A.5.5,0,0,0,24.82,10ZM12.5,5.6,3,13.37V23.75A1.27,1.27,0,0,0,4.29,25H20.71A1.27,1.27,0,0,0,22,23.75V13.37ZM12,24H7V16.5a.49.49,0,0,1,.5-.5h4a.49.49,0,0,1,.5.5Zm7-4.5a.5.5,0,0,1-.5.5h-3a.5.5,0,0,1-.5-.5v-5a.49.49,0,0,1,.5-.5h3a.49.49,0,0,1,.5.5Z"/></svg>
+          <div class="ui divider"></div>
+          <h3>Consulting Services</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate consequatur sint eius necessitatibus sequi temporibus officiis quod quas repudiandae.</p>
+      </div>
+      <div class="services-block t-white tf-rob">
+          <!-- <span class="i-size"><i class="comment alternate outline icon"></i></span> -->
+          <svg class="svg-size" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g><path fill="none" d="M0 0h24v24H0z"/><path d="M21 20h2v2H1v-2h2V3a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v17zm-2 0V4H5v16h14zM8 11h3v2H8v-2zm0-4h3v2H8V7zm0 8h3v2H8v-2zm5 0h3v2h-3v-2zm0-4h3v2h-3v-2zm0-4h3v2h-3V7z"/></g></svg>
+          <div class="ui divider"></div>
+          <h3>Consulting Services</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate consequatur sint eius necessitatibus sequi temporibus officiis quod quas repudiandae.</p>
+      </div>        
+    </div>
+  </body>
+  <footer>
+        <span class="tf-rob t-white">Copyright © 2021 BT Real Estate</span>
+  </footer>
+  <!-- Script js -->
+  <script src="assets/js/script.js"></script>
+  </html>
+        
+      
